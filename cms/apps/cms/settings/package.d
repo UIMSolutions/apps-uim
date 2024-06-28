@@ -1,0 +1,2 @@
+module apps.cms.settings;
+

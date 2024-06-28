@@ -1,0 +1,66 @@
+{
+	"name": "app-bim",
+	"description": "App",
+	"authors": [
+		"Sicherheitsschmiede",
+		"Ozan Nurettin Süel"
+	],
+	"copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+	"license": "Apache-2.0",
+	"targetType": "library",
+	"configurations": [
+		{
+			"name": "offline",
+			"targetType": "library"
+		},
+		{
+			"name": "libtest",
+			"targetType": "library",
+			"versions": [
+				"test_app_bim"
+			]
+		}
+	],
+	"dependencies": {
+		"colored": "~>0.0.27",
+		"vibe-d": "~>0.9.7",
+		"uim": "~>24.1.2"
+	},
+	"importPaths": [
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-mvc",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../WEBS/web-controls",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-entitybase",
+
+		"../../MODELS/model-systems",
+
+		"../../LANGS/lang-javascript",
+
+		"../../LAYOUTS/layout-tabler/source/layouts",
+		"./"
+	],
+	"sourcePaths": [
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-mvc",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../WEBS/web-controls",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-entitybase",
+		
+		"../../MODELS/model-systems",
+
+		"../../LANGS/lang-javascript",
+		"../../LAYOUTS/layout-tabler/source/layouts",
+		"./"
+	]
+}

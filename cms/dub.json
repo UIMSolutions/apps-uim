@@ -1,0 +1,70 @@
+{
+	"name": "app-cms",
+	"description": "App for content management",
+	"authors": [
+		"Sicherheitsschmiede",
+		"Ozan Nurettin Süel"
+	],
+	"copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+	"license": "Apache-2.0",
+	"configurations": [
+		{
+			"name": "offline",
+			"targetType": "library"
+		},
+		{
+			"name": "libtest",
+			"targetType": "library",
+			"versions": [
+				"test_app_cms"
+			]
+		}
+	],
+	"targetType": "library",
+	"dependencies": {
+		"colored": "~>0.0.27",
+		"vibe-d": "~>0.9.7",
+		"uim": "~>24.1.2"
+	},
+	"importPaths": [
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-mvc",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-entitybase",
+		
+		
+		"../../MODELS/model-systems",
+		"../../MODELS/model-cms",
+		
+		"../../WEBS/web-controls",
+		"../../LANGS/lang-javascript",
+
+		"../../LAYOUTS/layout-tabler/source/layouts",
+		"./"
+	],
+	"sourcePaths": [
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-mvc",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-models",
+		"../../LIBS/uim-entitybase",
+		
+		"../../MODELS/model-systems",
+		"../../MODELS/model-cms",
+		
+		"../../WEBS/web-controls",
+		"../../LANGS/lang-javascript",
+		
+		"../../LAYOUTS/layout-tabler/source/layouts",
+		"./"
+	]
+}

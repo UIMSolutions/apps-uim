@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+
+/app-ecm
+app-ecm.so
+app-ecm.dylib
+app-ecm.dll
+app-ecm.a
+app-ecm.lib
+app-ecm-test-*
+*.exe
+*.o
+*.obj
+*.lst
+libapp-ecm.a
